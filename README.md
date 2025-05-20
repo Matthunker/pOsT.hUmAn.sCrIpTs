@@ -1,7 +1,7 @@
 # POST.HUMAN.SCRIPTS
 
-**Automated tools and scripts built for the future.**  
-Control, optimize, and evolve—*the system is waiting.*
+**Automated tools and scripts**  
+
 
 ---
 
