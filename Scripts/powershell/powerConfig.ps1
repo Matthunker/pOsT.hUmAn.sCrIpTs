@@ -4,7 +4,7 @@ $OriginalPlan = $(powercfg -getactivescheme).split()[3]
 ## Duplicate Current Active Plan
 $Duplicate = powercfg -duplicatescheme $OriginalPlan
 ## Change Name of Duplicated Plan
-$CurrentPlan = powercfg -changename ($Duplicate).split()[3] "Alamo Power Plan"
+$CurrentPlan = powercfg -changename ($Duplicate).split()[3] "Custom Power Plan"
 ## Set New Plan as Active Plan
 $SetActiveNewPlan = powercfg -setactive ($Duplicate).split()[3]
 ## Get the New Plan
